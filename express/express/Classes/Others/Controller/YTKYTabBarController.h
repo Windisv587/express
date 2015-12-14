@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  YTKYTabBarController.h
 //  express
 //
 //  Created by yuntongios on 15/12/14.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface YTKYTabBarController : UITabBarController
 
 @end
-

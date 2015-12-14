@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YTKYTabBar.h
 //  express
 //
 //  Created by yuntongios on 15/12/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YTKYTabBar : UITabBar
 
 @end
-

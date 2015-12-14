@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5097EC201C1EB96F00F469BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097EC1F1C1EB96F00F469BF /* main.m */; };
-		5097EC231C1EB96F00F469BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097EC221C1EB96F00F469BF /* AppDelegate.m */; };
-		5097EC261C1EB96F00F469BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097EC251C1EB96F00F469BF /* ViewController.m */; };
-		5097EC291C1EB96F00F469BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5097EC271C1EB96F00F469BF /* Main.storyboard */; };
-		5097EC2B1C1EB96F00F469BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5097EC2A1C1EB96F00F469BF /* Assets.xcassets */; };
-		5097EC2E1C1EB96F00F469BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5097EC2C1C1EB96F00F469BF /* LaunchScreen.storyboard */; };
 		5097EC391C1EB96F00F469BF /* expressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097EC381C1EB96F00F469BF /* expressTests.m */; };
 		5097EC441C1EB96F00F469BF /* expressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097EC431C1EB96F00F469BF /* expressUITests.m */; };
+		5097EC721C1EC46C00F469BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097EC641C1EC46C00F469BF /* AppDelegate.m */; };
+		5097EC741C1EC46C00F469BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097EC6F1C1EC46C00F469BF /* ViewController.m */; };
+		5097EC771C1EC71900F469BF /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097EC761C1EC71900F469BF /* MyViewController.m */; };
+		5097EC7A1C1EC77000F469BF /* OrderReceivViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097EC791C1EC77000F469BF /* OrderReceivViewController.m */; };
+		5097EC7D1C1EC78900F469BF /* SendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097EC7C1C1EC78900F469BF /* SendViewController.m */; };
+		5097EC801C1EC8EF00F469BF /* YTKYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097EC7F1C1EC8EF00F469BF /* YTKYTabBarController.m */; };
+		5097EC831C1EC91000F469BF /* YTKYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097EC821C1EC91000F469BF /* YTKYNavigationController.m */; };
+		5097EC851C1ECD6800F469BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5097EC841C1ECD6800F469BF /* Assets.xcassets */; };
+		50E20C751C1EF53600B1E85C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E20C731C1EF53600B1E85C /* Main.storyboard */; };
+		50E20C781C1EF78400B1E85C /* YTKYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E20C771C1EF78400B1E85C /* YTKYTabBar.m */; };
+		50E20C7B1C1EFA2200B1E85C /* UIView+FrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E20C7A1C1EFA2200B1E85C /* UIView+FrameExtension.m */; };
+		50E20C7E1C1EFB3600B1E85C /* ALLConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E20C7D1C1EFB3600B1E85C /* ALLConst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +44,6 @@
 /* Begin PBXFileReference section */
 		5097EC1B1C1EB96F00F469BF /* express.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = express.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5097EC1F1C1EB96F00F469BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5097EC211C1EB96F00F469BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5097EC221C1EB96F00F469BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5097EC241C1EB96F00F469BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5097EC251C1EB96F00F469BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5097EC281C1EB96F00F469BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5097EC2A1C1EB96F00F469BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5097EC2D1C1EB96F00F469BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5097EC2F1C1EB96F00F469BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5097EC341C1EB96F00F469BF /* expressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = expressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5097EC381C1EB96F00F469BF /* expressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = expressTests.m; sourceTree = "<group>"; };
@@ -51,6 +51,29 @@
 		5097EC3F1C1EB96F00F469BF /* expressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = expressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5097EC431C1EB96F00F469BF /* expressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = expressUITests.m; sourceTree = "<group>"; };
 		5097EC451C1EB96F00F469BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5097EC631C1EC46C00F469BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5097EC641C1EC46C00F469BF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5097EC6E1C1EC46C00F469BF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5097EC6F1C1EC46C00F469BF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5097EC751C1EC71900F469BF /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		5097EC761C1EC71900F469BF /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		5097EC781C1EC77000F469BF /* OrderReceivViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderReceivViewController.h; sourceTree = "<group>"; };
+		5097EC791C1EC77000F469BF /* OrderReceivViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderReceivViewController.m; sourceTree = "<group>"; };
+		5097EC7B1C1EC78900F469BF /* SendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendViewController.h; sourceTree = "<group>"; };
+		5097EC7C1C1EC78900F469BF /* SendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendViewController.m; sourceTree = "<group>"; };
+		5097EC7E1C1EC8EF00F469BF /* YTKYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKYTabBarController.h; sourceTree = "<group>"; };
+		5097EC7F1C1EC8EF00F469BF /* YTKYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKYTabBarController.m; sourceTree = "<group>"; };
+		5097EC811C1EC91000F469BF /* YTKYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKYNavigationController.h; sourceTree = "<group>"; };
+		5097EC821C1EC91000F469BF /* YTKYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKYNavigationController.m; sourceTree = "<group>"; };
+		5097EC841C1ECD6800F469BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Classes/Others/View/Assets.xcassets; sourceTree = "<group>"; };
+		50E20C741C1EF53600B1E85C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Classes/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50E20C761C1EF78400B1E85C /* YTKYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKYTabBar.h; sourceTree = "<group>"; };
+		50E20C771C1EF78400B1E85C /* YTKYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKYTabBar.m; sourceTree = "<group>"; };
+		50E20C791C1EFA2200B1E85C /* UIView+FrameExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameExtension.h"; sourceTree = "<group>"; };
+		50E20C7A1C1EFA2200B1E85C /* UIView+FrameExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameExtension.m"; sourceTree = "<group>"; };
+		50E20C7C1C1EFB3600B1E85C /* ALLConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLConst.h; sourceTree = "<group>"; };
+		50E20C7D1C1EFB3600B1E85C /* ALLConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLConst.m; sourceTree = "<group>"; };
+		50E20C7F1C1EFBEB00B1E85C /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +124,8 @@
 		5097EC1D1C1EB96F00F469BF /* express */ = {
 			isa = PBXGroup;
 			children = (
-				5097EC211C1EB96F00F469BF /* AppDelegate.h */,
-				5097EC221C1EB96F00F469BF /* AppDelegate.m */,
-				5097EC241C1EB96F00F469BF /* ViewController.h */,
-				5097EC251C1EB96F00F469BF /* ViewController.m */,
-				5097EC271C1EB96F00F469BF /* Main.storyboard */,
-				5097EC2A1C1EB96F00F469BF /* Assets.xcassets */,
-				5097EC2C1C1EB96F00F469BF /* LaunchScreen.storyboard */,
+				5097EC511C1EC46C00F469BF /* Classes */,
+				5097EC841C1ECD6800F469BF /* Assets.xcassets */,
 				5097EC2F1C1EB96F00F469BF /* Info.plist */,
 				5097EC1E1C1EB96F00F469BF /* Supporting Files */,
 			);
@@ -117,6 +135,7 @@
 		5097EC1E1C1EB96F00F469BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				50E20C731C1EF53600B1E85C /* Main.storyboard */,
 				5097EC1F1C1EB96F00F469BF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +157,170 @@
 				5097EC451C1EB96F00F469BF /* Info.plist */,
 			);
 			path = expressUITests;
+			sourceTree = "<group>";
+		};
+		5097EC511C1EC46C00F469BF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5097EC561C1EC46C00F469BF /* My */,
+				5097EC5E1C1EC46C00F469BF /* Order receiving */,
+				5097EC6A1C1EC46C00F469BF /* Send */,
+				5097EC621C1EC46C00F469BF /* Others */,
+				5097EC6E1C1EC46C00F469BF /* ViewController.h */,
+				5097EC6F1C1EC46C00F469BF /* ViewController.m */,
+				50E20C7C1C1EFB3600B1E85C /* ALLConst.h */,
+				50E20C7D1C1EFB3600B1E85C /* ALLConst.m */,
+				50E20C7F1C1EFBEB00B1E85C /* PrefixHeader.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5097EC561C1EC46C00F469BF /* My */ = {
+			isa = PBXGroup;
+			children = (
+				5097EC571C1EC46C00F469BF /* Controller */,
+				5097EC581C1EC46C00F469BF /* Model */,
+				5097EC5D1C1EC46C00F469BF /* View */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		5097EC571C1EC46C00F469BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5097EC751C1EC71900F469BF /* MyViewController.h */,
+				5097EC761C1EC71900F469BF /* MyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5097EC581C1EC46C00F469BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5097EC5D1C1EC46C00F469BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5097EC5E1C1EC46C00F469BF /* Order receiving */ = {
+			isa = PBXGroup;
+			children = (
+				5097EC5F1C1EC46C00F469BF /* Controller */,
+				5097EC601C1EC46C00F469BF /* Model */,
+				5097EC611C1EC46C00F469BF /* View */,
+			);
+			path = "Order receiving";
+			sourceTree = "<group>";
+		};
+		5097EC5F1C1EC46C00F469BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5097EC781C1EC77000F469BF /* OrderReceivViewController.h */,
+				5097EC791C1EC77000F469BF /* OrderReceivViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5097EC601C1EC46C00F469BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5097EC611C1EC46C00F469BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5097EC621C1EC46C00F469BF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				5097EC631C1EC46C00F469BF /* AppDelegate.h */,
+				5097EC641C1EC46C00F469BF /* AppDelegate.m */,
+				5097EC651C1EC46C00F469BF /* Category */,
+				5097EC661C1EC46C00F469BF /* Controller */,
+				5097EC681C1EC46C00F469BF /* Model */,
+				5097EC691C1EC46C00F469BF /* View */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		5097EC651C1EC46C00F469BF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				50E20C791C1EFA2200B1E85C /* UIView+FrameExtension.h */,
+				50E20C7A1C1EFA2200B1E85C /* UIView+FrameExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5097EC661C1EC46C00F469BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5097EC7E1C1EC8EF00F469BF /* YTKYTabBarController.h */,
+				5097EC7F1C1EC8EF00F469BF /* YTKYTabBarController.m */,
+				5097EC811C1EC91000F469BF /* YTKYNavigationController.h */,
+				5097EC821C1EC91000F469BF /* YTKYNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5097EC681C1EC46C00F469BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5097EC691C1EC46C00F469BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50E20C761C1EF78400B1E85C /* YTKYTabBar.h */,
+				50E20C771C1EF78400B1E85C /* YTKYTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5097EC6A1C1EC46C00F469BF /* Send */ = {
+			isa = PBXGroup;
+			children = (
+				5097EC6B1C1EC46C00F469BF /* Controller */,
+				5097EC6C1C1EC46C00F469BF /* Model */,
+				5097EC6D1C1EC46C00F469BF /* View */,
+			);
+			path = Send;
+			sourceTree = "<group>";
+		};
+		5097EC6B1C1EC46C00F469BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5097EC7B1C1EC78900F469BF /* SendViewController.h */,
+				5097EC7C1C1EC78900F469BF /* SendViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5097EC6C1C1EC46C00F469BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5097EC6D1C1EC46C00F469BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +426,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5097EC2E1C1EB96F00F469BF /* LaunchScreen.storyboard in Resources */,
-				5097EC2B1C1EB96F00F469BF /* Assets.xcassets in Resources */,
-				5097EC291C1EB96F00F469BF /* Main.storyboard in Resources */,
+				5097EC851C1ECD6800F469BF /* Assets.xcassets in Resources */,
+				50E20C751C1EF53600B1E85C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +452,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5097EC261C1EB96F00F469BF /* ViewController.m in Sources */,
-				5097EC231C1EB96F00F469BF /* AppDelegate.m in Sources */,
+				5097EC831C1EC91000F469BF /* YTKYNavigationController.m in Sources */,
+				5097EC721C1EC46C00F469BF /* AppDelegate.m in Sources */,
+				5097EC7A1C1EC77000F469BF /* OrderReceivViewController.m in Sources */,
+				5097EC801C1EC8EF00F469BF /* YTKYTabBarController.m in Sources */,
+				5097EC741C1EC46C00F469BF /* ViewController.m in Sources */,
+				50E20C7E1C1EFB3600B1E85C /* ALLConst.m in Sources */,
 				5097EC201C1EB96F00F469BF /* main.m in Sources */,
+				50E20C781C1EF78400B1E85C /* YTKYTabBar.m in Sources */,
+				5097EC771C1EC71900F469BF /* MyViewController.m in Sources */,
+				50E20C7B1C1EFA2200B1E85C /* UIView+FrameExtension.m in Sources */,
+				5097EC7D1C1EC78900F469BF /* SendViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +498,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5097EC271C1EB96F00F469BF /* Main.storyboard */ = {
+		50E20C731C1EF53600B1E85C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5097EC281C1EB96F00F469BF /* Base */,
+				50E20C741C1EF53600B1E85C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5097EC2C1C1EB96F00F469BF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5097EC2D1C1EB96F00F469BF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,10 +595,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/express/Classes/PrefixHeader.h";
 				INFOPLIST_FILE = express/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ytky.express;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,10 +609,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/express/Classes/PrefixHeader.h";
 				INFOPLIST_FILE = express/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ytky.express;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +686,7 @@
 				5097EC4A1C1EB96F00F469BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5097EC4B1C1EB96F00F469BF /* Build configuration list for PBXNativeTarget "expressTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +695,7 @@
 				5097EC4D1C1EB96F00F469BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5097EC4E1C1EB96F00F469BF /* Build configuration list for PBXNativeTarget "expressUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +704,7 @@
 				5097EC501C1EB96F00F469BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
